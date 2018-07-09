@@ -4,6 +4,7 @@ Main python file for the sssdevops example
 
 # import statements go there
 
+
 def mean(num_lst):
     """
     This function calculates the average of a list of numbers
@@ -27,4 +28,4 @@ def mean(num_lst):
     for i in num_lst:
         total += i
     num = len(num_lst)
-    return total/num
+    return total / num

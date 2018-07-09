@@ -1,2 +1,10 @@
+*********************************
+This is the start
+*********************************
+
 I added this file from a new clone!
 Now I added a new line.
+
+*********************************
+This is the end
+*********************************

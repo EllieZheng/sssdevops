@@ -10,7 +10,8 @@ if __name__ == "__main__":
         url="https://github.com/EllieZheng/sssdevops",
         license='BSD 3-C',
         packages=setuptools.find_packages(),
-        install_requires=[],
+        install_requires=[
+        ],
         extras_require={
             'docs': [
                 'sphinx==1.2.3',  # autodoc was broken in 1.3.1
@@ -19,8 +20,13 @@ if __name__ == "__main__":
                 'numpydoc',
             ],
             'tests': [
-                'pytest',
+                'pytest>=3.0',
+                'pytest-cov',
             ],
+            'develop': [ #extra
+                'yapf',
+                'versioneer',
+            ]
         },
 
         tests_require=[

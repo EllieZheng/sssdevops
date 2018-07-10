@@ -4,7 +4,7 @@ import versioneer
 if __name__ == "__main__":
     setuptools.setup(
         name='sssdevops',
-        version=versioneer.get_version()
+        version=versioneer.get_version(),
         description='Example project for the SSS Devops course',
         author='Ellie',
         url="https://github.com/EllieZheng/sssdevops",
